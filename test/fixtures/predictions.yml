@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  prefecture: MyString
+  prediction: MyString
+  date: 2015-07-20 17:14:25
+
+two:
+  prefecture: MyString
+  prediction: MyString
+  date: 2015-07-20 17:14:25

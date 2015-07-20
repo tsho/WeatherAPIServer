@@ -13,8 +13,7 @@ class ApisController < ApplicationController
       logger.debug(area)
 
       respond_to do |format|
-#        msg = { :status => "ok", :message => "Success!", :html => "<b>Sunny</b>" }
-        msg = { :status => "ok", :message => "Success!", :html => "Sunny" }
+        msg = { :status => "ok", :message => "Success!", :country => data["country"], :area => data["area"]}
         format.json  { render :json => msg } # don't do msg.to_json
       end
 #    logger.debug(data["company"])
@@ -24,4 +23,8 @@ class ApisController < ApplicationController
     end
   end
 
+  private
+  def getInfo
+
+  end
 end
