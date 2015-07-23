@@ -1,5 +1,5 @@
 ## Weather API Server
-This server can receive json data from ios and send response it.
+This server can receive json data from ios and send response.
 
 -  Ruby version
 
